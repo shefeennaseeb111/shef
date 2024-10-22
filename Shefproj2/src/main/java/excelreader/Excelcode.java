@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Excelcode {
 	static FileInputStream f;
-	static XSSFWorkbook w;
+	static XSSFWorkbook w;//
 	static XSSFSheet sh;
 	public static <w> String getStringData(int a,int b)throws IOException 
 	{
