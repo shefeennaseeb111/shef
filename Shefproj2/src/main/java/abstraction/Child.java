@@ -7,7 +7,7 @@ public class Child implements Parent {
 		Child ob=new Child();
 		ob.read();
 		ob.display();
-		Parent obj=new Child();
+		Parent obj=new Child();//parent is an interface.so: Interfacename object=new Classname();
 		obj.display();
 	}
 
